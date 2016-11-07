@@ -12,3 +12,9 @@ int pow(int x, int y)
 	else
 		return x * pow(x, y-1);
 }
+
+void zeronum(int* a, int* b)
+{
+	*a = 0;
+	*b = 0;
+}
