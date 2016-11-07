@@ -5,7 +5,10 @@ int plusnum(int x, int y)
 	return x + y;
 }
 
-int mulnum(int x, int y)
+int pow(int x, int y)
 {
-	return x * y;
+	if (y == 1)
+		return x;
+	else
+		return x * pow(x, y-1);
 }

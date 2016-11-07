@@ -7,6 +7,6 @@ int main()
 {
 	cout << "깃허브 프로젝트입니다" << endl;
 
-	int a = 20, b = 30;
-	cout << "a와 b의 합 계산: " << plusnum(a, b) << endl;
+	int a = 2, b = 10;
+	cout << a<< "의 "<<b<<"제곱은?: " << pow(a, b) << endl;
 }
