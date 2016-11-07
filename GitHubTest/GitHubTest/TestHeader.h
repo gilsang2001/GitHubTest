@@ -12,3 +12,8 @@ int pow(int x, int y)
 	else
 		return x * pow(x, y-1);
 }
+
+int minusnum(int x, int y)
+{
+	return x - y;
+}
